@@ -1,0 +1,1209 @@
+--- Page 1 ---
+Cambridge Forum on AI: Law and Governance(2025), 1, e47, 1–23
+doi:10.1017/cfl.2025.10041
+RESEARCH ARTICLE
+Computer says,“war”: AI and resort-to-force decision
+making in a context of rapid change and global
+uncertainty
+Toni Erskine1,2
+ and Steven E. Miller3
+1Coral Bell School of Asia Pacific Affairs, Australian National University (ANU), Australian Capital Territory (ACT),
+Canberra, Australia;2Centre for the Future of Intelligence, University of Cambridge, Cambridge, UK and3Belfer Center for
+Science and International Affairs, Harvard University, Cambridge, MA, USA
+Corresponding author: Toni Erskine; Email:toni.erskine@anu.edu.au
+(Received 11 December 2025; accepted 15 December 2025)
+Abstract
+This article prefaces our Special Issue on “AI and the Decision to Go to War.” We begin by introducing the
+prospect of artificial intelligence (AI)-enabled systems increasingly infiltrating state-level decision making
+on the resort to force, clarifying that our focus is onexisting technologies, and outlining the two general
+ways that this can conceivably occur: through automated self-defense and AI-enabled decision-support
+systems.Wethenhighlightrecent,on-goingdevelopmentsthatcreateabackdropofrapidchangeandglobal
+uncertainty against which AI-enabled systems will inform such deliberations: (i) the widespread tendency
+to misperceive the latest AI-enabled technologies as increasingly “human”; (ii) the changing role of “Big
+Tech” in the global competition over military applications of AI; (iii) a conspicuous blind spot in current
+discussions surrounding international regulation; and (iv) the emerging reality of an AI-nuclear weapons
+nexus. We suggest that each factor will affect the trajectory of AI-informed war initiation and must be
+addressed as scholars and policymakers determine how best to prepare for, direct, and respond to this
+anticipated change. Finally, turning to the pressing legal, ethical, sociotechnical, political, and geopolitical
+challenges that will accompany this transformation, we revisit four “complications” that have framed the
+broader project from which this Special Issue has emerged. Within this framework, we preview the other
+13 multidisciplinary research articles that make up this collection. Together, these articles explore the risks
+and opportunities that will follow AI into the war-room.
+Keywords: war; artificial intelligence (AI); machine learning (ML); resort to force; decision making; nuclear weapons
+This is one of fourteen articles published as part of theCambridge Forum on AI: Law and GovernanceSpecial Issue,AI
+and the Decision to Go to War.We would like to thank Aina Turillazzi for her superb research assistance; Jenny Davis, Sarah
+Logan, and Mitja Sienknecht for incisive written comments on an earlier draft; Sean Ó hÉigeartaigh for helpful discussions
+on particular points; and Tuukka Kaikkonen for his valuable assistance with references and formatting. T.E. is also grateful
+for a Visiting Fellowship at the Centre for the Future of Intelligence (CFI) at the University of Cambridge during the northern
+spring/summer2025,whichprovidedtheidealenvironmenttoworkonthisarticle.WithrespecttotheSpecialIssueasawhole,
+we are extremely grateful to Emily Hitchman, Tuukka Kaikkonen, Hanh Nguyen, and Aina Turillazzi for editorial assistance at
+different stages, to all of the contributors for their enthusiastic engagement with this project, and to the Australian Department
+of Defence for the grant that has supported this project.
+© The Author(s), 2026. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative
+Commons Attribution-NoDerivatives licence (http://creativecommons.org/licenses/by-nd/4.0), which permits re-use, distribution, and
+reproduction in any medium, provided that no alterations are made and the original article is properly cited.
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 2 ---
+2 Toni Erskine and Steven Miller
+1. Introduction
+Computer says, “war”? Our title is intended as a provocation. Yet, it is not the product of futuris-
+tic forebodings directed at “the singularity,” a hypothetical point at which artificial intelligence (AI)
+would surpass our human capacities, escape our control, and (some argue) threaten our existence.1
+Rather, it aims to paint a picture that is more mundane and more immediate. Our title depicts a sce-
+nario in whichexisting AI-driven systems influence state-level decisions on whether and when to
+wage war. Such a scenario is soberly informed by what we maintain are impending changes in strate-
+gic decision making – changes that we have robust reasons to anticipate and can already observe in
+nascent form.
+AI is increasingly relied upon to support, and even substitute for, human decision making in a
+host of realms, including the criminal justice system, medical diagnostics, and aviation. AI-driven
+systems that rely on machine-learning (ML) techniques can analyse huge quantities of data quickly,
+reveal patterns of correlation in datasets that would be impossible for human actors to uncover, and
+draw on these patterns to identify risks and make predictions when confronted with new data. These
+capacities would seem to make such systems obvious assets when it comes to state-level decision
+making on the initiation of armed conflict. After all, assessments of,inter alia, current threats, the
+likely actions of adversaries, and the consequences of possible courses of action and inaction are
+fundamental to such deliberations. Indeed, the diagnostic and predictive functions of ML decision
+systems have reportedly already been tested in the context of anticipating adversaries’ acts of military
+aggression – for example, by the national security consultancy Rhombus Power and by Silicon Valley
+contractors working with US special forces (McChrystal & Roy,2023; “How America built an AI
+tool to predict Taliban attacks,”2024; see Erskine & Davis,2025 for a discussion). Moreover, AI-
+enabled systems currently contributeindirectly to state-level decision making on the initiation of
+armed conflict through their use in intelligence collection and analysis (Deeks et al.,2019; pp. 2,
+6; Logan,2024; Suchman,2023). Given the ubiquity of these technologies across multiple decision-
+making domains, their potential value in contributing to deliberations over war initiation, and states’
+perceived need to maintain a strategic advantage vis-à-vis their adversaries, we suggest that more
+direct contributions to state-level resort-to-force decision making by existing AI-enabled systems are
+imminent and inevitable.
+The prospect of existing AI technologies more directly contributing to state-level decisions on
+whether and when to wage war is conceivable in two general ways. AI-driven systems acting
+autonomously could independently calculate and carry out courses of action that would constitute
+the resort to war. Here, we might think of various manifestations of automated self-defense, where,
+in specific contexts, the initiation of armed conflict could be effectively delegated to a machine. This
+could occur, for example, through potentially volatile interactions between autonomous underwater
+or aerial vehicles leading to unintended escalations, or as a result of automated responses to cyber
+attacks (see, for example, Deeks,2024, 2025a; Deeks et al.,2019, pp. 7–10, 18–19). Alternatively, non-
+autonomous AI-driven systems in the form of so-called “decision-support systems” could contribute
+to deliberations over the resort to force by providing predictions or recommendations that inform
+human decision making (see, for example, Davis,2024; Deeks et al.,2019, pp. 5–7, 10–11; Erskine,
+2024b). In these latter cases, although some human actors in the decision-making chain might be
+1On the hypothetical achievement of “artificial general intelligence” (AGI) (which would match or surpasses human capac-
+ities on most cognitive tasks) or “super intelligence” (which would far exceed the cognitive capacities of even the brightest
+human actors) as an existential risk, see for example Bostrom (2014, pp. 115–26). Perhaps most famously, Stephen Hawking
+declared that “[t]he development of full artificial intelligence could spell the end of the human race” (Cellan-Jones,2014).
+Such speculation has become increasingly common alongside the advent and rapid development of language-generative mod-
+els such as ChatGPT. See, for example, Center for AI Safety (2023), Kleinman (2023), Metz (2023), Ó Héigeartaigh (2025b),
+and Roose (2023). For exemplar counter-perspectives that contest and complicate such claims, see Kasirzadeh and Gyevnar
+(2025) and Vallor (2024).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 3 ---
+Cambridge Forum on AI: Law and Governance 3
+displaced, human decision makers would remain the final arbiters of whether and when to resort to
+force.
+By focusing on these possibilities, this Special Issue – like the earlier collection (Erskine & Miller,
+2024b) upon which it builds and the broader research project from which both have emerged –
+embodies a significant shift in focus when it comes to analysing military applications of AI. Amongst
+both scholars and policy makers, there is a prevailing preoccupation with AI-driven systems used
+in the conduct of war: weapons that possess various degrees of autonomy, including, most promi-
+nently, the emerging reality of “lethal autonomous weapons systems” (LAWS); and decision-support
+systems that rely on big data analytics and machine learning to recommend targets, such as those
+that have gained particular notoriety through their use by Israel in the war in Gaza (see, for exam-
+ple, Davies, McKernan & Sabbagh,2023; Yuval,2024). These are important objects of study. Yet, our
+attention should also encompass the relatively neglected prospect of AI-driven systems that would
+variously determine or inform theresort to war.2 As we have described previously, the shift in focus
+that we are advocating takes us “from AI on thebattlefield to AI in thewar-room”(Erskine & Miller,
+2024a, p. 138). Rather than focusing on tactical decisions surrounding selecting and engaging targets
+in armed conflict, we explore the necessarily prior stage of state-level, strategic deliberation over the
+very initiation of war and military interventions. As such, we move fromjus in belloto jus ad bellum
+considerationsinthelanguageofthejustwartradition,andfromactionsadjudicatedbyinternational
+humanitarian law to actions constrained and condoned by the United Nations (UN) Charter’s (1945)
+prohibition on the resort to force and its explicit exceptions.
+As we acknowledge and anticipate this emerging application of AI in the military domain, there is
+an urgent need to identify the legal, ethical, sociotechnical, political, and geopolitical challenges that
+will accompany it – and determine how best to respond to them. This is the task of the 13 research
+articles that follow. Our aim here is to introduce this collection by briefly highlighting four recent
+developmentsthatwesuggestaredirectlyrelevanttohowAI-enabledsystemswillinfiltrateandinflu-
+enceresort-to-forcedecisionmaking.Specifically,weaddressthefollowing:thewidespreadtendency
+to misperceive the latest AI-enabled technologies as increasingly “human”; the changing role of “Big
+Tech” in the global competition over military applications of AI; a conspicuous blind spot in cur-
+rent discussions surrounding international regulation; and the emerging AI-nuclear weapons nexus.
+AI-driven systems will increasingly inform state-level decisions on whether and when to wage war.
+Together, these four factors represent a backdrop of rapid change and profound global uncertainty
+thatwillaffectthetrajectoryofthisphenomenon.Eachmustbeaddressedasscholarsandpolicymak-
+ers determine how best to prepare for, direct, and respond to the prospect of AI-informed decisions
+on the initiation of armed conflict.
+2. The illusion of increasingly “human” AI
+While the phenomenon of AI infiltrating resort-to-force decision making promises far-reaching
+geopolitical effects, when it comes to recent transformations that will significantly influence the
+nature of this impact, it is necessary to zoom in on a subtle shift at the individual human level of
+analysis. The first point of change and upheaval that we will address is simply how human actors have
+come to perceive and interact with rapidly evolving and seemingly ubiquitous AI-driven systems.
+By “AI” we mean, simply, the capacity of machines to imitate aspects of intelligent human
+behaviour – noting that this general label is also often used for the wide range of technologies that
+display this capability. Yet, the significance of this defining feature ofimitationrisks being overlooked
+as human users stand in awe of emerging AI-driven technologies, particularly those inferential mod-
+els that rely on ML techniques. In November 2022, “ChatGPT” (short for “generative pre-trained
+2Pioneering exceptions to this general neglect are Deeks et al. (2019), Horowitz & Lin-Greenberg (2022), and Wong et al.
+(2020).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 4 ---
+4 Toni Erskine and Steven Miller
+transformer”) was launched by OpenAI.3 This was followed by Meta’s “Llama,” Anthropic’s “Claude,”
+and Google’s “Gemini,” all launched in 2023, with increasingly sophisticated iterations of each family
+of models appearing in rapid succession. The ability of these large language models (LLMs) to pass
+the so-called “Turing test” (75 years after it was first proposed) by convincingly mimicking human
+expression has been startling (Jones & Bergen,2025).4 Yet, it is the perception – ormisperception–
+of what this means that has the potential to be profoundly consequential.
+UserstendtoembraceaconceptionofthesegenerativeAImodelsbecomingincreasingly“human”
+– a conception reflected, in its most enthusiastic form, in unfounded claims that we have already
+achieved, or are on the brink of achieving, artificial general intelligence (AGI). Yet, while LLMs may
+appear to deliberate and exercise judgment in response to our questions and prompts, understand
+what they are conveying, and even engage in critical self-reflection, they possess none of these capac-
+ities. A number of problems follow from this misalignment. First, it can lead to a misunderstanding
+about how these systems function. For example, there is a common misperception that LLMs “make
+mistakes” when they generate false information and that they sometimes “make things up” (or “hal-
+lucinate”). Both accounts are misguided. These systems are not designed to seek the truth, but rather
+toproduceprobabilistic outputs.Theyfunctionbystatisticalinference,simplypredictingwhichsym-
+bol is likely to follow in a series. When these outputs contain false information, the models are not
+making a mistake but, rather, doing exactly what they were designed to do. Moreover, it is not the
+case that theysometimes make things up; theyalways make things up. Sometimes this happens to
+correspond with reality.
+A second problem, which follows on from the first, is that it is easy to overlook the limits of such
+systems.PeoplemayreasonablyvaluethecomputationalabilitiesofAI-drivensystemsthatdoindeed
+surpass those of human actors, but will run into difficulty if they imagine these to be accompanied by
+certainhumancapacities.Inotherwords,expectingsuchsystemstobeabletoseektruthandcarefully
+reflectonrecommendationsleavesusersunpreparedforthesystem’sinabilitytodoso.Moreover,false
+confidence in the capacities that these systems merely mimic, and an accompanying lack of attention
+to their limitations, will only exacerbate existing deference to their outputs – a deference that already
+results from susceptibility to “automation bias,” or the human tendency to trust, accept, and follow
+computer-generated outputs.5 Finally, such misperceptions of the capacities of AI-driven systems
+might lead to mistaken (perhaps wishful) attributions of an agency that would ostensibly allow them
+to bear responsibility for particular actions and outcomes, thereby letting their users – including
+political and military leaders charged with weighty decisions of whether and when to wage war – off
+the moral hook (Cummings,2006, p. 28; Erskine,2024a, pp. 552–54; Erskine2024b, pp. 180–82).
+When it comes to AI-driven technologies and resort-to-force decision making, the illusion of
+increasingly “human” AI could have grave geopolitical repercussions if it means that AI-generated
+outputs are perceived as the product of truth-seeking, reasoned, and even ethically deliberated
+judgments. Decision makers might thereby be more willing to either defer to the predictions and
+recommendations of these systems (in the context of AI-enabled decision-support systems) or del-
+egate decision making and action to them (in the case of automated defense systems). The danger,
+we suggest, is not the appearance of “emergent properties” in AI systems that would see them escape
+human control and threaten our collective existence, but, rather,simulatedcapacities that may entice
+those in power to cede responsibility for important decisions and actions.
+3See Hao (2025, 256-61) for an account of ChatGPT’s meteoric launch.
+4The “Turing test” is the label commonly given to Alan Turing’s (1950, 433–4) “imitation game,” originally proposed as
+a proxy for answering the question “Can machines think?” The experiment places both a computer and a human actor in
+written dialogue with a human adjudicator, who is tasked with determining which is which based on responses to questions.
+Amachinepassesthis“Turingtest”iftheadjudicatorisunabletoreliablydistinguishitfromthegenuinelyhumaninterlocutor.
+5On “automation bias” see: Cummings (2006; 2015); Mosier and Manzey (2019); Skitka, Mosier and Burdick (1999).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 5 ---
+Cambridge Forum on AI: Law and Governance 5
+This dangerous illusion and resulting temptation to abdicate responsibility for crucial decisions
+and actions are exacerbated in the context of our second point of change and upheaval: the perceived
+geopolitical “race” to develop and employ these AI-enabled systems for military advantage.
+3. The accelerating, militarized “race” of the tech leviathans
+Accounts of a global AI “race” abound. Descriptions are offered, for example, of an “AI arms race”
+(Haner & Garcia,2019; Knight,2023; Simonite,2017; United Nations,2024), an “AI military race”
+(Garcia, 2023), a “geopolitical innovation race” surrounding AI research and development (Schmid
+etal., 2025),anda“technologyracetoadoptAI”(Scharre, 2021,p.122).Thesearevariouslyconceived
+with reference to geopolitical competition over military applications of AI, often with a specific focus
+on LAWS, or in relation to AI innovation more generally, whereby states – most prominently the
+United States and China – compete for technological leadership with the aim of achieving not only
+military but also economic and political superiority. Indeed, laments of an American race lost, or
+forfeited, heralded the release of a new chatbot in January 2025 by the Chinese start-up, DeepSeek
+(Belanger, 2025, pp. 3–4). Despite debates over labels and appropriate analogies, there is general
+agreement that the global competition over AI innovation is imbued with a sense of urgency.
+We are concerned here with one aspect of this perceived race: the emerging role of powerful tech
+companies in what is an increasingly militarized competition. This move has been accompanied by
+thesecorporationsabandoninghithertoself-imposedethicalguidelines,alongwithboldjustifications
+for this reversal. Our second snapshot of change brings us back precisely to those LLMs addressed in
+the previous section and, we suggest, bolsters our assessment of the inevitable and imminent use of
+such AI-enabled systems in state-level decision making on the resort to force.
+Big Tech is not merely part of a global competition in AI innovation. With striking changes to
+their own policies and purported values, American tech companies are now increasingly contribut-
+ing to the specificallymilitary dimension of this competition – a move that Assaad (2025) has aptly
+described as the “militarization of commercial AI.” In late 2024, Anthropic, Meta, and OpenAI each
+enteredagreementsthatmaketheirAImodelsavailabletoUSgovernmentagenciesthroughdefense-
+industry partners and explicitly framed these deployments as serving defense and national security
+(Assaad, 2024, 2025; Wiggers, 2024). In November 2024, Anthropic partnered with the tech data
+analytics firm Palantir Technologies, alongside cloud-infrastructure provider Amazon Web Services
+(AWS), to make its Claude AI models available to US defense and intelligence agencies (Palantir,
+2024; see also Rosenberg,2024). Palantir (2024) promised that the result would be “new generative
+AI capabilities” that would “dramatically improve intelligence analyses and enable officials in their
+decision-making processes.”
+The same month, Meta announced that it would make its open-source Llama AI models avail-
+able to US defense and national security agencies through partnerships with defense and technology
+companies,includingtheprivateAIcompanyScaleAI(Clegg, 2024;seealsoOutpost, 2024;Sadashiv,
+2024). As part of this partnership, Scale AI has introduced “Defence Llama,” an LLM built on Meta’s
+Llama 3, which Scale AI has promoted as being “fine-tuned to support American national secu-
+rity missions” by enabling “military operators, strategic planners, and decision-makers” to “apply the
+power of generative AI to their unique use cases, such as planning military or intelligence operations
+and understanding adversary vulnerabilities” (The Scale Team,2024).
+In December 2024, OpenAI, creator of ChatGPT, entered a “strategic partnership” with defense
+technology startup Anduril Industries “to develop and responsibly deploy advanced artificial intel-
+ligence (AI) solutions for national security missions,” with the specific aim to “address urgent
+Air Defence capability gaps across the world” and “enable military and intelligence operators to
+make faster, more accurate decisions in high-pressure situations” (Anduril,2024; see also Assaad,
+2024; Ferran,2024; Shanklin,2024).6 Notably, these national-security deployments of generative AI
+6The OpenAI–Anduril partnership explicitly targets the integration of OpenAI’s frontier models into Anduril’s existing
+defence platforms, particularly for air and missile defence and broader command-and-control functions (Anduril,2024).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 6 ---
+6 Toni Erskine and Steven Miller
+models – with explicit promises of high-level decision making, strategic planning, and command-
+and-control functions7 – map directly on to the types of tools and applications required for the
+AI-enabledresort-to-forcedecisionmaking(inbothitsautomatedself-defenseanddecision-support
+system variations) that we have been arguing is on the horizon (Erskine & Miller,2024a, pp. 138–39;
+Erskine, 2024b, pp. 175–78).8
+These public declarations by American tech corporations to support military endeavours and act
+in the service of defense and national security are also notable because they represent a consider-
+able and consequential shift in policy and purpose. Indeed, in the case of Meta, this commitment
+effectively circumvented its own guidelines (subsequently reiterated in relation to Llama 4) prohibit-
+ing the use of its Llama model “to engage in, promote, incite, facilitate, or assist in the planning or
+development of” activities related to “military, warfare, nuclear industries or applications” (Meta,
+2025; see also Assaad,2024).9 Not only has Meta allowed derivative models to be regulated under
+its partners’ more permissive policies, but it has effectively enabled military-use exceptions through
+partner licensing and model fine-tuning, even while retaining formal prohibitions in its public policy
+language (Moorhead,2024).
+OpenAI and Google have made comparable moves, although by abandoning rather than circum-
+venting their respective codes. In January 2024, OpenAI adjusted its position on allowing its models
+to be used for military applications. While it retained its prohibition against employing its models for
+the development or use of weapons systems, OpenAI nevertheless discarded its prohibition against
+contributing to other “military and warfare” applications (Frenkel,2025; Shanklin,2024). Likewise,
+inFebruary2025,GoogleannouncedafundamentalchangetoitsAIprinciples(Manyika&Hassabis,
+2025; see also Assaad,2025; Bacciarelli,2025). As originally published in 2018, these principles had
+included commitments “not to design or deploy AI” in a number of application areas, including:
+“[t]echnologies that cause or are likely to cause overall harm,” “[w]eapons and other technologies
+whose principal purpose or implementation is to directly facilitate injury to people,” and “[t]ech-
+nologies that gather or use information for surveillance violating internationally accepted norms”
+(Pichai, 2018). Surprisingly, all of these prohibitions were removed in its revised principles (Assaad,
+2025; Bacciarelli, 2025; Google, 2025). Within an industry where, until recently, forswearing con-
+tributions to military endeavours had been the norm, this seismic cultural shift was perhaps most
+vividly displayed in June 2025 when four prominent Silicon Valley executives were commissioned as
+lieutenant colonels in the US Army (Desmarais,2025; Levy,2025).10
+HowtheAmericantechindustryhasdefendeditsfundamentalrealignmentwithnationalsecurity
+priorities is significant, not least because these actors overwhelmingly determine global AI capacity
+and direction. Rather than casting aside ethical commitments as such, they have espoused an alter-
+native moral compass. We can reasonably assume that these tech corporations have followed the
+7While the systems promised in these announcements will operate primarily as decision-support rather than fully
+automated self-defence agents, their anticipated integration into command-and-control pipelines establishes the technical
+conditions under which the transition from decision-support systems to automated escalation pathways becomes feasible.
+8Indeed,asthisarticlegoestopress,theUSDepartmentofWar( 2025)hasannouncedthelaunchofGoogleCloud’s“Gemini
+for Government,” to be housed on the Department’s new AI platform, GenAI.mil. Describing this development as “leveraging
+generative AI capabilities to create a more efficient and battle-ready enterprise,” the Department claims that “[t]he release of
+GenAI.mil is an indispensable strategic imperative for our fighting force, further establishing the United States as the global
+leader in AI” (US Department of War,2025).
+9Among the prohibited uses, according to the “acceptable use policy” for Llama 4 (launched in April 2025), are employing
+or allowing others to employ Llama 4 to “[e]ngage in, promote, incite, facilitate, or assist in the planning or development of
+activities that present a risk of death or bodily harm to individuals, including use of Llama 4 related to… [m]ilitary, warfare,
+nuclear industries or applications…” (Meta,2025).
+10ThisnewU.S.ArmyReserveunitiscalled“Detachment201:theExecutiveInnovationCorps.”Theexecutivesare:Andrew
+Bosworth, Meta’s Chief Technology Officer; Kevin Weil, OpenAI’s Head of Product, Bob McGrew, Former OpenAI Head of
+Research, who is now advising the AI Company Thinking Machines Lab, and Shyam Sankar, Palantir’s Chief Technology
+Officer. See Desmarais (2025); Levy (2025).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 7 ---
+Cambridge Forum on AI: Law and Governance 7
+promise of financial gain by declaring a commitment to support states such as the United States in
+achieving an AI advantage in the military realm. However, they justify this move and corresponding
+reversal of policy in often overtly moral language through impassioned appeals to: the urgency of
+winning the increasingly militarized AI “race” at what they portray as a moment of extreme geopolit-
+ical risk; duties to protect national security and preserve the “shared values” of Western democracies;
+and even a commitment to good over evil.
+InofferinganaccountofwhyGooglejettisoneditsAIprinciples,Googlerepresentativesexplained
+that “[t]here is a global competition taking place for AI leadership within an increasingly complex
+geopolitical landscape” and expressed an imperative that “companies, governments, and organiza-
+tions…that share core values” cooperate to create AI that “protects people, promotes global growth,
+and supports national security” (Manyika & Hassabis,2025). According to a Meta spokesperson,
+“[r]esponsible uses of open source AI models promote global security and help establish the U.S. in
+the global race for AI leadership” (Clegg,2024). He added that “[w]e believe it is in both America and
+the wider democratic world’s interest for American open-source models to excel and succeed over
+models from China and elsewhere” (Clegg,2024).11 In a similar vein, in the context of announcing
+its partnership with OpenAI, Anduril Industries (Anduril,2024) claimed that:
+The accelerating race between the United States and China to lead the world in advancing AI
+makesthisapivotalmoment.IftheUnitedStatescedesground,werisklosingthetechnological
+edge that has underpinned our national security for decades. The decisions made now will
+determinewhethertheUnitedStatesremainsaleaderinthe21 st centuryorrisksbeingoutpaced
+by adversaries who don’t share our commitment to freedom and democracy and would use AI
+to threaten other countries.
+Continuing this theme of supreme geopolitical emergency, the CEO of Palantir Industries (with
+which Anthropic recently partnered), Alex Karp, described the race to develop AI technologies, inl-
+cudingtoadvanceLLMs,as“ourOppenheimermoment”(Karp, 2023).Thishistoricalreferencetothe
+race to develop the first nuclear weapons underscores how industry leaders present current geopolit-
+ical stakes as allowing, even requiring, what would otherwise be considered morally unacceptable (Ó
+Héigeartaigh,2025a, p. 11). Even more starkly, the chief technology officer of Palantir, Shyam Sankar,
+reflected in an interview in October 2025 that “the moral view we have, which is why we started the
+company, [is] that the West is a force for good…There is evil in the world and that evil is not us”
+(Douthat,2025). These positions embraced by prominent American tech companies – by which they
+not only espouse moral imperatives to grant themselves permission to dispatch their data-driven
+models for military endeavours, but also support narratives of an accelerating, militarized AI race in
+order to establish the urgency of doing so – are particularly significant for the strategic applications
+of AI-driven technologies in which we are interested.
+These tech leviathans are not just joining the perceived geopolitical race over militarized AI inno-
+vation. They are actively contributing to its creation. And they have strong incentives for doing so
+that are commercial rather than security-focused. Appeals to national security and the notion of a
+civilizational life-or-death geopolitical race serve the interests of these corporations when faced with
+regulations that would constrain their growth, such as those related to intellectual property protec-
+tions, for example (Berger,2025, p. 6). Both OpenAI and Google are lobbying the US government to
+designate AI training on copyrighted data as “fair use,” arguing that this access is crucial for main-
+taining the United State’s competitive edge in the global AI arena (Berger,2025). Indeed, invoking
+risks to national security, OpenAI has declared that “the race for AI is effectively over” if US com-
+panies are denied such access while “the PRC’s developers have unfettered access to data” (Belanger,
+11Ó hÉigeartaigh’s (2025a, p. 18) observes that although Western policy and industry leaders increasingly frame AI devel-
+opment through such civilisational and geopolitical binaries, thereby rhetorically constructing this accelerating “race” in a way
+that becomes self-fulfilling, Chinese public discourse rarely uses similar framings.
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 8 ---
+8 Toni Erskine and Steven Miller
+2025). While Big Tech companies make bold appeals to national and civilizational survival in the
+context of this lobbying, they also frequently fund policy discourse that emphasises, and perpetuates,
+national-security fears and geopolitical rivalry (Ó Héigeartaigh,2025a).
+Notably, new pathways for commercial AI development to directly serve military objectives cre-
+ate dependencies between defense capabilities and private sector AI advancement. This convergence
+raises difficult questions about the boundaries between commercial and military AI development,
+particularly as these companies’ AI models become integral to both civilian and defense applica-
+tions.12 Such dependencies begin to challenge the state’s ostensible monopoly on the legitimate use
+of force in new and complex ways. After all, these tech corporations create the conditions under
+which the state’s military capabilities are increasingly mediated through, and reliant upon, private-
+sector systems.13 These dependencies also add credence to what we have argued is the imminent
+and inevitable use of AI-enabled systems in resort-to-force decision making. We have already made
+this case based both on the ubiquity of such systems across other realms of human decision making
+and states’ perceived need to match adversaries’ capabilities. This development represents yet another
+reason to conclude that AI will increasingly and directly infiltrate resort-to-force decision making.
+Simply, moving towards algorithm-informed deliberations over whether and when to wage war has
+become part of a Big Tech business model. Arguably, so has war itself.
+This evolving military role of the tech leviathans, along with the incentives and allowances that it
+creates for them to champion unfettered innovation, leads us directly to questions of international
+regulation.Ourthirdsnapshotof(somewhatslower)changeaimstocaptureaconspicuousregulatory
+blind spot and emerging awareness of the need to consider constraints on military applications of AI
+beyond the battlefield.
+4. An international regulatory blind spot
+WhenitcomestomilitaryapplicationsofAIgenerally,attemptsatinternationalregulationarealready
+curtailed by states’ unwillingness to accept limits that could result in strategic disadvantage by con-
+straining what they are able to develop and deploy. This is part of the geopolitical competition just
+addressed. Yet,whenweturn specifically totheinfiltrationofAI-enabled systemsintoresort-to-force
+decision making, there is also another problem in the form of aregulatory blind spot.Simply, while
+acknowledging that the process of achieving consensus on international norms governing military
+applications of AI is bound to be fraught with difficulties, we note that constraints on the use of
+AI-driven systems for state-level resort-to-force decision making have rarely even made it onto the
+negotiating table.14 This is despite the fact that we have every reason to assume that widely acknowl-
+edged risks that accompany the use of these technologies in theconduct of war – such as deference to
+machine-generated outputs stifling and ultimately eroding human judgment, for example – will also
+appear if and when they are used for deliberation over itsinitiation, and with the potential for even
+greater resulting harm.
+Attempts at the international regulation of military applications of AI tend to be directed towards
+systems that are used on the battlefield, in the conduct of war, rather than those that may infiltrate
+the war-room and otherwise contribute to crucial stages of decision making and action that would
+lead to the initiation of organised violence. Examples of this restricted focus can be found in promi-
+nent bodies and resolutions that address military applications of AI – and have achieved important
+areasofconsensus(albeitonprinciplesthatarelegallynonbindingandgenerallytheleastcontentious
+12We are grateful to Aina Turillazzi for raising this point.
+13For a powerful treatment of these AI technology companies as “new national security actors” upon which state govern-
+ments could, in the near future, become dependent for the operation of their national infrastructures, see Hammond-Errey
+(2025).
+14The rare case where the regulation of AI-enabled systems for resort-to-force decision making is at least broached is with
+respect to autonomous systems and nuclear weapons, as we address in the following section.
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 9 ---
+Cambridge Forum on AI: Law and Governance 9
+of those proposed) – exclusively with respect to AI-enabled weapons. These include the Group of
+GovernmentExpertsonEmergingTechnologiesintheAreaofLethalAutonomousWeaponsSystems
+(LAWS GGE) and the UN General Assembly Resolution 78/241 on Lethal Autonomous Weapons
+(UN CCW,2019; United Nations, General Assembly,2023). Moreover, the consensus reached fol-
+lowing the first “Responsible AI in the Military Domain” (REAIM) Summit, a multistakeholder
+dialogue that brought together representatives from governments, industry, academia, and civil soci-
+ety organizations, held in The Hague in February 2023, was similarly restricted in scope. The 2023
+REAIM Summit resulted in the US-led “Political Declaration on the Responsible Military Use of
+Artificial Intelligence and Autonomy,” which was signed by 51 countries in November of the same
+year (Bureau of Arms Control, Verification, and Deterrence,2023). In the Declaration, “military AI
+capabilities” are discussed exhaustively in the guise of “weapons systems,” with the prescription that
+states “take appropriate steps, such as legal reviews, to ensure that their military AI capabilities will
+be used consistent with their respective obligations under international law” qualified as “interna-
+tional humanitarian law,” which governs theconduct of war (Bureau of Arms Control, Verification,
+and Deterrence,2023).15
+This regulatory blind spot is due to multiple factors. To begin, as we have already suggested, the
+focus on AI-enabled systems in war has been directed specifically towards those that contribute to its
+conduct rather than its initiation. The resulting neglect affects both categories of AI-enabled systems
+that we have suggested could inform the resort to force: automated defense systems and AI-enabled
+decision-support systems. Yet, such neglect is compounded when it comes to the latter category. This
+is because ML-driven strategic decision-support systems that would draw on the generative AI mod-
+els discussed above are not readily perceived as threats that warrant regulation – a point exacerbated
+by the dual-use nature of these systems, which can be used for both strategic decision making and
+civilian applications.16 Unlike both LAWS and AI-enabled decision-support systems used for target-
+ing in the conduct of war, their use in state-level strategic and political decision making is not seen
+to be directly implicated in the “kill chain” – even though they could help create the conditions that
+would make myriad “kill chains” possible. In short, the harm to be mitigated through regulation
+is seen to accompany weapons deployment rather than upstream decision logic. Simply, AI-driven
+decision-support systems that would metaphorically enter the war-room do not fit the mould of what
+is to be regulated. In addition to this innocuous guise, their persistent invisibility when it comes to
+efforts at regulation is further heightened by the practical reality of the cloistered, necessarily secre-
+tive nature of the national security deliberations for which they would be used17 – and, of course, by
+states’ likely reticence to consider restrictions that affect their internal decision making and sovereign
+war-making prerogative.
+Finally, our proposal that AI-driven systems will increasingly infiltrate resort-to-force decision
+making remains speculative. This is speculation that we have argued is informed by significant
+changes in a host of other realms; rests on technologies that we have now; and points to near-future
+(indeed nascent) developments that are currently being ushered into existence (Erskine & Miller,
+2024a, p. 135). Nevertheless, the speculative nature of these anticipated developments may mean that
+they are easily overlooked due to a “failure of imagination” in terms of what is seen to be possible,
+where prospective risks lie, and what should therefore be regulated.18
+15Notably, the “REAIM Call to Action” issued by the Government of the Netherlands (2023) ahead of the 2023 Summit
+acknowledges that “[m]ilitaries are increasing their use of AI across a range of applications and contexts.” Nevertheless, these
+applications and contexts are not specified, nor do they feature in the “Political Declaration” that followed from the Summit.
+16For complementary points on AI-driven decision-support systems used in resort-to-force decision making being less
+visible than LAWS, and therefore removed from public debate, as well as being less susceptible to scrutiny at the time of their
+development due to the cover of their dual-use technology, see Sienknecht (2025, pp. 9–10).
+17Ashley Deeks’ notion of the “double black box” is directly relevant here. See Deeks (2025b).
+18We owe the phrase “failure of imagination” in this context to discussions with Aina Turillazzi.
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 10 ---
+10 Toni Erskine and Steven Miller
+Nevertheless, since the publication of our previous collection calling for greater attention to the
+influence of AI on deliberations over the resort to force (Erskine & Miller,2024b), there have been
+promising gestures towards the need to also consider, and possibly curtail, the impact of military
+applications of AI beyond the battlefield. The second REAIM Summit, convened on 9–10 September
+2024, in Seoul, Republic of Korea, produced a “Blueprint for Action,” officially endorsed as the out-
+come document of the Summit. Although nonbinding and largely aspirational, it was supported by
+61 states, including the United States, the United Kingdom, Australia, and Japan (Ministry of Foreign
+Affairs, Republic of Korea,2024). This “Blueprint for Action” was described by the organisers of the
+Summit as laying out “a roadmap for establishing norms of AI in the military domain” (REAIM,
+2024).ThereisevidencethatthenormsthatitenvisionsarenotlimitedtothepreviousSummit’sfocus
+onLAWSandotherAI-drivensystemsdeployedintheconductofwar.TheBlueprintforActionopens
+with an acknowledgement that the aspects of military affairs that AI has the potential to transform
+include not only military operations but also “command and control, intelligence, surveillance and
+reconnaissance (ISR) activities, training, information management and logistical support” (Ministry
+ofForeignAffairs,RepublicofKorea, 2024).Moreover,initsnumberedrecommendations,itincludes
+amongst risks that accompany AI applications in the military domain “risks of arms race, miscalcu-
+lation, escalation and lowering threshold of conflict” (3), and mentions applicable international law
+beyond IHL, including the UN Charter (7) (Ministry of Foreign Affairs, Republic of Korea,2024)
+– all indications of an emerging acknowledgement of the potential role of AI-driven decision sys-
+tems in the initiation of war. Furthermore, the Blueprint for Action recognises the role of AI in cyber
+operations (4) and warns that “it is especially crucial to maintain human control and involvement
+for all actions critical to informing and executing sovereign decisions concerning nuclear weapons
+employment” (5) (Ministry of Foreign Affairs, Republic of Korea,2024). In sum, despite its enduring
+focus on AI-enabled weapons and decision-support systems used specifically for combat operations,
+on each of these points, the Blueprint for Action inches into the territory of AI-enabled systems that
+could either inform or temporarily displace human decision making on the resort to force.
+The UN General Assembly has also recently signalled a shift in its attention beyond LAWS. In
+December 2024, in Resolution 79/239 adopted by the UN General Assembly, the UN Secretary-
+Generalwasaskedtoseektheviewsof“MemberStates…observerStates…internationalandregional
+organizations, the International Committee of the Red Cross, civil society, the scientific commu-
+nity and industry” on the “opportunities and challenges posed to international peace and security
+by the application of artificial intelligence in the military domain,with specific focus on areas other
+than lethal autonomous weapons systems”(United Nations, General Assembly,2024).19 A substantive
+report by the UN Secretary-General, which summarises submitted views and catalogues “existing
+and emerging normative proposals” pursuant to resolution 79/239, followed in June 2025 (United
+Nations, General Assembly,2025). This emerging shift in focus is significant – even if it is only in its
+early stages – and has been both prompted and foreshadowed by the articles in this special issue.20
+Attempts at international regulation of military applications of AI must overcome persistent blind
+spots and consider the influence of both autonomous and non-autonomous AI-enabled systems on
+the resort to force. When it comes specifically to AI-enabled decision-support systems that become
+embeddedupstreaminthreatperceptionandstrategicassessment,regulationmustaddressthecogni-
+tivepipelinethroughwhichwardecisionsareshaped.Howthisisdone,whatprinciplesofrestraintare
+required,andwhoorwhatshouldberegulated–BigTechasanemerging agent of warisachallenging
+and crucial candidate to consider – are questions that require urgent attention.
+19Emphasis added. A policy report with recommendations arising from the research presented in this Special Issue was
+submittedinresponsetothiscallandisavailableinfullintheUNOfficeforDisarmamentAffairsDocumentsLibrary(Erskine
+et al.,2025a).
+20The Secretary General’s report includes a summary of the policy recommendations distilled from the research presented
+in this Special Issue on the prospective risks and opportunities of AI-enabled systems used for resort-to-force decision making
+(United Nations, General Assembly,2025, pp. 133–139).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 11 ---
+Cambridge Forum on AI: Law and Governance 11
+Notably, there is one area where AI’s potential influence on resort-to-force decision making
+has already produced some consensus on the need to cooperate and impose constraints: at the
+intersection of AI and nuclear weapons, the subject of our final snapshot of consequential change.
+5. The AI – nuclear weapons nexus
+In response to the wave of attention that has been devoted to the feared existential threat posed by
+future generations of AI, we have maintained the importance of uncovering and attempting to miti-
+gate the immediate risks that accompany already-existing AI-driven technologies. Our concern has
+been that a preoccupation with the prospect of AGI as an existential threat occludes dangers with
+which we are already confronted (Erskine,2024b, p. 176). Nevertheless, in one important domain,
+related specifically to resort-to-force decision making, ourcurrent iterations of AI do threaten to
+contribute to an existential threat – that is, the existential threat posed by nuclear weapons.
+From the dawn of the nuclear age, it has been recognized that nuclear weapons can inflict massive,
+catastrophic harm, that they represent what Bertrand Russell and Albert Einstein, in a famous 1955
+manifesto, identified as a species-threatening technology. “We are speaking on this occasion,” Russell
+and Einstein wrote in one of the most dramatic appeals of the nuclear age (and in cosmopolitan
+language starkly at odds with Big Tech’s more recent and particularistic calls to action in the face of
+existential peril), “not as members of this or that nation, continent, or creed, but as human beings,
+members of the species Man, whose continued existence is in doubt.”21 How will AI interact with this
+technology that possesses such enormous destructive potential, that in the worst case is capable of
+destroyingmoderncivilization?Becausethestakesaresohighandtherisksaresorealandimmediate,
+this AI-nuclear weapons nexuslooms particularly large in thinking about the implications of AI and
+resort-to-force decision making.
+AI could figure in decisions about whether to use nuclear weapons in three ways: It could be allo-
+cated decision-making discretion; it could serve as an input, or eventhe input, in human decision
+making; and it could influence decisions as a consequence of its impact on the nuclear balance. There
+is already much debate about the cumulative effect of AI on the nuclear order, with some commenta-
+tors arguing that it can have useful, benign, or stabilizing consequences.22 However, it is the risks and
+potentialadverseimpactsthatcompellinglycommandattentionduetotherealpossibilityoftrulydis-
+astrousoutcomes.Asonerecentanalysisurges,“itisessentialforpolicymakerstobeawareoftherisks
+posed by the AI-nuclear nexus” (Stokes et al.,2025, p. 1). Failure to address those risks, it concludes,
+“could leave the country and the world dangerously exposed to risks and ill-prepared to seize any
+opportunities arising from the increasingly salient AI-nuclear nexus” (Stokes et al.,2025, p. 1). Depp
+and Scharre (2024) convey the concern in stark terms: “Improperly used, AI in nuclear operations
+could have world-ending effects.”
+5.1. Allocating nuclear decision-making discretion to AI
+OnepossiblenuclearapplicationofAIseemstohavediedarapiddeath.Thereappearstobeverylittle
+inclination anywhere to fully automate nuclear-use decision making, to turn an extraordinarily con-
+sequential decision over to AI – though in principle this could bolster deterrence by increasing the
+likelihoodandeffectivenessofretaliation.AsTomNichols( 2025a)hasexplained,“Somedefenseana-
+lysts wonder if AI – which reacts faster and more dispassionately to information than human beings
+– could alleviate some of the burden of nuclear decision making. This is a spectacularly dangerous
+idea.” Relevant decision makers around the world have responded to this “spectacularly dangerous
+idea” by rejecting it.
+21The text of the Manifesto and the story of its creation and launch can be found in Butcher (2005).
+22AnoptimisticviewcanbefoundinPuwal( 2024).ThemoreworriedendofthespectrumcanbefoundinO’Hanlon( 2025)
+and Vega and Johns (2024).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 12 ---
+12 Toni Erskine and Steven Miller
+In recent years, attention to the AI-nuclear weapons nexus has produced a profusion of assertions
+and assurances from many countries and in various settings that nuclear decision making should
+and will remain in human hands. The world seems to have converged on the notion that there should
+alwaysbea “human in the loop”inthiscontext,meaningsimplythathumanactorsmustbeactivepar-
+ticipants in AI-assisted decisions and outcomes and must be the ones to instigate an action; no action
+is to be taken without human intervention.23 In its 2022 Nuclear Posture Review and subsequent offi-
+cial documents, for example, the United States has repeatedly made this pledge. In its recent update
+of nuclear planning guidance, the US Department of Defense (2024, p. 4) reiterates, “In all cases, the
+United States will maintain a human ‘in the loop’ for all actions critical to informing and execut-
+ing decisions by the President to initiate and terminate nuclear weapons employment.”24 The issue
+has figured in high-level diplomacy. A notable instance is the Sino-American meeting in November
+2024, at which President Biden and President Xi agreed that nuclear use decisions should remain in
+humancontrol.25 Thisissuehassimilarlyfiguredinmultilateraldiplomacy.AttheReviewConference
+of the Nuclear Nonproliferation Treaty (NPT) in 2022, France, the United Kingdom, and the United
+States submitted a document on “Principles and Responsible Practices for Nuclear Weapon States,”
+which includes a pledge by their governments to “maintain human control” of nuclear decision mak-
+ing (France, United Kingdom & United States, 2022, para. 5.vii). Moreover, as already noted, the
+2024 Blueprint for Action, which emerged from the second REAIM Summit, categorically states that
+“human control and involvement” is essential forall actions that are “critical to informing and exe-
+cuting sovereign decisions concerning nuclear weapons employment” (Ministry of Foreign Affairs,
+Republic of Korea,2024). In short, although AI offers the potential for automating at least some mili-
+tarydecisionmakingandcreating(partiallyorfully)autonomousmilitarycapabilities,whenitcomes
+tothenuclearrealm,thereappearstobeinternationalconsensusthathumandiscretionisimperative.
+An algorithm should not make decisions that could lead to Armageddon.
+5.2. Keeping humans in the loop
+The expectation is, then, that there will be a human in the loop when nuclear use decisions are made.
+The allocation of decision-making discretion to AI is thus avoided – precluding the long-imagined
+and long-feared nightmare ofmachine-drivenemployment ofnuclear weapons(Nichols,2025b). But
+as AI is integrated into intelligence analysis and decision-support systems, it is likely increasingly to
+be a significant input into the calculus of top decision makers. Despite the comforting “human-in-
+the-loop” assurance that decision-making authority will remain with human actors, individuals at
+the apex of power, making momentous decisions, will be utilizing – perhaps heavily relying upon
+– data, conclusions, and recommendations generated by AI. Ensuring that humans are in the loop,
+therefore, is not enough. We need also to ask: What are the implications of AI-enabled systems for
+nuclear decision makingeven with humans in the loop?
+The answer requires that fundamental questions be addressed. In the era of Putin and Trump, for
+example, it seems obvious that it matters which humans are in the loop.26 But what does it mean to
+have a human in the loop? Intelligence operations or command-and-control arrangements that are
+heavily dependent on AI may have a human making decisions at the top, but AI-generated outputs
+maybecomethedominantcontributingfactorsindeliberationsovertheuseofnuclearweapons.Will
+the leader understand this loop and their role in it? There are strong claims in the literature that this is
+23This is distinct from the related concepts of “human-on-the-loop,” which entails human oversight and override provisions
+so that an AI-enabled system can calculate and carry out a course of action, with humans auditing this behaviour and able to
+intervene(andabortanaction),and“ human-out-of-the-loop,”wherebytheAI-enabledsystemworkscompletelyautonomously
+after setup, without human interference or oversight.
+24ThisdocumentreproducesexactlythedeclarationinUSDepartmentofDefense( 2022,p.13) 2022NuclearPostureReview .
+25An example of the extensive coverage of this development is Egan and Kine (2024).
+26For account of the importance of having “experts in the loop,” see Davis (2024).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 13 ---
+Cambridge Forum on AI: Law and Governance 13
+not possible. “No single human,” write Leins and Kaspersen (2021), “has the capacity to understand
+and oversee” complex AI systems. Can the human control the loop? Calls for human actors to be
+the final arbiters of nuclear decisions, and maintain effective human oversight of decision-making
+processes, collide with the automation bias already discussed and with the speed, scale, complexity,
+opacity, and incomprehensibility of AI-enabled systems examined in subsequent contributions to
+this Special Issue. If the moment ever arrives, the decision to use nuclear weapons will be taken by a
+small group of human beings (in the United States the president alone has “sole authority” to order
+nuclear employment) who, even while remaining formally in the nuclear-decision-making loop, risk
+having their roles collapse into merely endorsing computer-generated outputs that are imbued with
+authority and that they can neither understand nor effectively audit.
+And will there be a single loop? Modern governments are large, complex bureaucracies filled with
+competing interests and organizations that are likely to use AI in their own way for their own pur-
+poses. In the realm of intelligence, the United States is probably an extreme example of this reality:
+its intelligence community is comprised of 18 different civilian and military organizations, loosely
+overseen by a Director of National Intelligence, with an aggregate annual budget in excess of $100
+billion (Office of the Director of National Intelligence,2025). In theory, it is possible to imagine that
+this enormous complex will provide the President with clear, coherent, consolidated AI-informed
+advice, but, in practice, these organizations are often jealous of their own roles and prerogatives and
+see others as rivals rather than partners. These “fiercely independent” units, as Dexter Filkins (2025)
+has written, do not “cooperate smoothly.” Filkins (2025) quotes a Washington insider to illustrate the
+point:
+The Air Force won’t work with the Navy. The Army won’t work with the Air Force. The N.S.A.
+[National Security Agency] won’t work with anybody. The National Reconnaissance Office
+won’t work with anybody. The National Reconnaissance Office and the National Geospatial-
+Intelligence Agency are both supposed to work with the N.S.A.—and they won’t talk to each
+other.
+In such an environment, it seems probable that different organizations, and even different groups
+within an organization, will develop and utilize their own AI-enabled systems, each producing their
+own analyses and outputs. This raises the possibility that the leader might receive competing AI-
+generated assessments and recommendations. Even if intelligence procedures were to produce a
+consolidated recommendation to the leader, this would nevertheless represent an amalgamation of,
+or possibly a least common denominator among, alternative AI outputs. It is plausible that leaders,
+at a moment of crisis and while contemplating the use of nuclear weapons, will have to contend with
+multiple “loops”, compounding problems of deference and opacity.27
+Despite these challenges, keeping humans in the loop is accepted as the only sensible response to
+the possible application of AI to nuclear decision making. However, the risks and challenges associ-
+ated with AI-informed decision making about nuclear weapons use also introduce a new family of
+concerns about nuclear escalation (Chernavskikh & Palayer,2025).
+5.3. AI and the stability of the nuclear balance
+AI can also influence decision making about the use of nuclear weapons by its effect on the nuclear
+balance, which can alter the incentives and calculations of leaders. This will depend on the character
+of forces and doctrines and on whether the AI impacts are stabilizing or destabilizing, favorable or
+unfavorable. As Lin (2025, p. 99) notes, “AI’s risks and benefits in nuclear command and control can-
+not be assessed apart from a nation’s nuclear posture, which includes force structure, arrangements
+27For a discussion of compounded (and institutionalized) deference to computer-generated outputs within formal organi-
+sations, see Erskine & Davis (2025, pp. 14–15) on “institutional automation bias.”
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 14 ---
+14 Toni Erskine and Steven Miller
+andinfrastructuresfornuclearcommandandcontrol,doctrine,andstrategicpriorities.”Astudyfrom
+the US Center for Naval Analyses (McDonnell, Chesnut, Ditter, Fink & Lewis,2023, p. 24) similarly
+links the intersection ofAI, doctrine, and force posture to the“risk calculus” of decision makers: “Use
+of AI for nuclear operations also has the potential to increase the risk of nuclear mission failure or
+escalation by altering the actual or perceived balance of military power among nuclear-armed states.
+This is because the balance of military power is a powerful driver of leaders’ decisions to wage war or
+to escalate an ongoing war.”
+The rapidly emerging literature on AI and nuclear weapons is generally careful to recognize that
+AI can have stabilizing as well as worrying consequences in the nuclear realm (and in military com-
+petitions more broadly) and that the net impact is not inherently negative (Burdette, Mueller, Mitre
+& Hoak,2025; see also Holmes & Wheeler,2024). There are, however, a number of ways in which
+AI can potentially increase leaders’ confidence in their nuclear advantages (which they might wish
+to exploit) or undermine their confidence in the survivability of their deterrent forces (which could
+produce preemptive incentives to escalate in a crisis).28 Persistent surveillance combined with rapid
+intelligence assessment can make mobile forces vulnerable, for example. More advanced ocean sens-
+ing capabilities can improve antisubmarine warfare, raising risks to these key deterrence assets that
+leadersmayworryaboutorseektoexploit.AImaycontributetocyberopportunitiesandvulnerabili-
+ties involving preemptive attacks on nuclear command and control that seek to interrupt the capacity
+tolaunchforces–so-called“leftoflaunch”attacks. 29 AIimprovementsinconventionalstrikecapabil-
+ities could make them more threatening to nuclear assets of the other side. For the foreseeable future,
+AI is unlikely to cause massive vulnerabilities that would invite disarming nuclear strikes, but AI-
+induced increases in the vulnerability of deterrent forces could produce “destabilizing uncertainty”
+in the minds of decisionmakers (Winter-Levy & Lalwani,2025). It is imaginable, in short, that the
+integration of AI into nuclear force postures could result in vulnerabilities and instabilities, real or
+perceived, that create potential incentives for nuclear use.
+In sum, the AI-nuclear weapons nexus raises the most immediate existential concerns related to
+the rise and adoption of AI. Its integration into the nuclear postures of nuclear armed states is hap-
+pening and appears inevitable (Rautenbach,2022). This development reinforces the importance of
+carefully examining the role of AI in resort-to-force decision making.
+6. This special issue
+Against this backdrop of change and uncertainty, the contributors to this Special Issue come together
+from diverse disciplinary backgrounds – political science, international relations (IR), physics, law,
+computer science, engineering, sociology, philosophy, and mathematics – to interrogate the risks
+and opportunities that AI-driven systems would bring to resort-to-force decision making. In doing
+so, they each reflect on particular challenges situated within one of the “four complications” that
+we have suggested would accompany the infiltration of AI-enabled systems into deliberations over
+whether and when to wage war (Erskine & Miller,2024a, pp. 139–40).30 These complications frame
+the broader project from which this collection has emerged.
+Complication 1 is concerned with the displacement of human judgment in AI-driven resort-
+to-force decision making and what this would mean for both the unintended escalation of conflict
+and deterrence theory. Simply, whether autonomously calculating and implementing a response to
+a particular set of circumstances, or generating outputs to aid human decision makers, AI-driven
+systems will neither “think” (an impossibility for such systems) nor behave as human actors do. This
+28A concise overview how AI may affect nuclear forces is Johnson (2022).
+29An example of this concern is Asghar (2025).
+30Most contributions cut across more than one of the four “complications.” Here – and in the separate policy document that
+outlines recommendations that follow from these studies – each contribution is placed within the category that represents its
+most prominent theme. For the latest version of the policy recommendations, see Erskine et al. (2025b).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 15 ---
+Cambridge Forum on AI: Law and Governance 15
+could be profoundly consequential. When faced with an adversary, a state’s interpretation of that
+adversary’s likelihood of engaging in armed conflict is based on the assumption that such choices are
+guided by human deliberation, human forbearance, human fears, and human practices and rituals of
+communication(suchassignallingtode-escalateconflict,forexample).TheuseofAI-drivensystems
+can cause a disjuncture between this assumption and reality. This is perhaps most acute in cases
+of automated self-defense, when machines are temporarily delegated the authority to both generate
+and implement responses to indications of aggression without human intervention (and do this at
+speeds beyond the capacity of human actors, thereby accelerating decision cycles). However, it is also
+a risk when AI-enabled systems produce diagnostics and predictions that inform human decision
+making – particularly when human actors accept these recommendations without question due to
+their tendency to defer to machines, or when accelerated decision cycles diminish human oversight
+and elevate algorithmic calculations. Both cases can result in unintended escalations in conflict and,
+moreover, threaten to undermine assumptions relied upon for effective deterrence.
+Turning to state-owned autonomous systems that could independently engage in actions that
+would constitute the resort to war, Deeks ( 2025a) addresses aspects of this first complication.
+Specifically, she constructs three scenarios in which such systems erroneously initiate war – the
+“Flawed System,” the “Poisoned System,” and the “Competitive AI System” – and asks what standard
+of care under international law a state must have adhered to in order to avoid international respon-
+sibility. In the context of this important analysis, she hypothesizes sobering instances of unintended
+escalation between autonomous underwater vehicles (AUVs) leading to war, including one scenario
+where she suggests that a contributing factor to such escalation is the autonomous system’s inabil-
+ity to decipher the signal that a warning shot is meant to convey (Deeks,2025a, p. 3). Continuing
+this theme of misperception and unintended escalation in an AI-influenced strategic environment,
+Zatsepina (2025) confronts the integration of AI in nuclear decision-making processes and its impli-
+cationsfordeterrencestrategies.Revisitingtheprecarityofthe“AI-nuclearweaponsnexus”discussed
+in Section 5, she highlights the problem of AI adding speed, opacity, and algorithmic biases to deci-
+sion making, thereby radically disrupting the realist assumption that the threat of mutual destruction
+will motivate rational actors to behave with caution. Finally, also motivated by a particular concern
+for the impact of AI-enabled systems on deterrence and escalation dynamics, Assaad and Williams
+(2025) turn specifically to decision-support systems, which they argue add complexity to the already-
+complex decision-making processes that war initiation entails. They identify three dimensions of
+complexity that current developments in AI are likely to introduce to resort-to-force decision mak-
+ing in the near future – “interactive and nonlinear complexity,” “software complexity,” and “dynamic
+complexity” – and explore how each poses risks that must be addressed.
+Complication 2 takes us from the consequential differences between machines and human actors
+in resort-to-force decision making to therelationshipthat human actors have with AI-driven systems
+and the effects of their interaction. This complication brings the discussion back to the detrimental
+impact of automation bias, or the tendency to accept computer-generated outputs – a tendency that
+can make human decision makers less likely to use (and maintain) their own expertise and judgment.
+It thereby highlights the dangers of deference and deskilling – including “moral deskilling” (Vallor,
+2013) – that human actors face when they rely on AI-driven decision systems. It also raises questions
+of trust: the degree to which human actors trust AI-driven systems, why, and even whether trust is
+appropriate or warranted.
+Adopting a “just war” perspective to assess the impact of AI-enabled decision-support systems on
+resort-to-forcedecisionmaking,Renic( 2025)cautionsthatsuchsystemsdegradethemoralcharacter
+of the human actors who rely on them. Specifically, these decision-support systems prevent human
+decision makers from cultivating moral and political wisdom and what he calls a “tragic sensibility”
+– dispositional qualities that are needed to navigate ethical decision making and “ask the right ques-
+tions” in the context of resort-to-force deliberations. Adopting a more optimistic perspective on the
+prospect of such “human-machine teaming,” Vold (2025) suggests that AI-enabled decision-support
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 16 ---
+16 Toni Erskine and Steven Miller
+systems mightaugment rather than degrade the judgment and reasoning of commanders engaged in
+strategicdeliberations.Shemaintainsthatpotentialopportunitieslie innon-autonomousAI-enabled
+systems enhancing strategic reasoning in the war-room by limiting and prioritizing possible courses
+of action, enhancing the mental modelling and visualization capacities of human actors, and mitigat-
+ing the negative effects of specifically human vulnerabilities, such as emotional and physical fatigue.
+Shifting the analysis from the anticipated risks and benefits of such reliance on AI-enabled systems to
+the perceptionsof those senior officers who would constitute the human side of the “human-machine
+team,” Lushenko (2025) asks what shapes military attitudes of trust in AI used for strategic-level
+decision making. Based on an elite sample drawn from the US military, Lushenko provides the first
+experimental evidence of how varying features of AI can inform servicemembers’ trust when faced
+with the prospect of partnering with AI-driven systems in the context of strategic deliberations.
+Complication 3 turns to algorithmic opacity and complexity and their potential implications for
+democratic and international legitimacy and questions of accountability. When it comes to the deci-
+sion to initiate (or continue fighting) a war, a state is expected to offer – andbe able to offer – a
+compelling justification of its decision to do so, generally one that is consistent with international
+norms and laws. This expectation is readily apparent in judgments by the international community
+of Russia’s war in Ukraine and Israel’s bombardment of Gaza, for example, and, indeed, in the respec-
+tive attempts by these states to justify their actions. This expectation is also evident in retrospective
+evaluations of the United States’ and the United Kingdom’s espoused justifications for the 2003 inva-
+sion of Iraq, including the United Kingdom’s own inquiry into, and subsequent reassessment of, its
+original rationale.31 Yet, what if (near-) future decisions to wage war are informed by AI-enabled
+systems in the ways we have described? Recall that the ML techniques that drive the autonomous
+and non-autonomous systems that we have suggested will increasingly infiltrate resort-to-force deci-
+sion making are known for their opacity and unpredictability. Whether these “black box” systems
+independently calculate and carry out courses of action that would constitute a resort to force, or
+play a dominant role in informing what are ostensibly human decisions, the lack of transparency and
+auditability of their ML-generated outputs becomes profoundly problematic. Simply, a state going
+to war may be unable either to explain or defend this decision adequately – or, indeed, fully under-
+stand it. In addition, the AI-enabled decision-making process might seem somewhat beyond the
+control of the state if this process relies on external actors, interests, and systems. Each of these fac-
+tors could underminetheperceived legitimacy ofthestate’sdecision to resort toforce– vis-à-visboth
+the international community and its own citizens – and, moreover, create a crisis of accountability if
+the initiation of armed conflict is condemned as illegal or unjust.
+AnticipatingjustsuchaproblemofaccountabilitywithinWesterndemocraciesifAIdisruptsstate-
+level resort-to-force decision-making processes, Logan (2025) observes that bureaucracies within
+these states produce documents when they deliberate over the initiation of armed conflict (such as
+records of meetings, for example), which can then be appealed to in the wake of unjust and illegal
+wars in order to hold relevant decision makers to account. Yet, will it be possible to answer questions
+of accountability surrounding the decision to go to war when AI is inserted and replaces documented
+processes with epistemic uncertainty? Logan addresses the resulting “problem of accountability” in
+a strikingly novel way. Rather than advocating for the transparency of ML processes, she makes the
+case for an alternative model of uncovering accountability in the context of AI-informed decisions,
+one that draws on the rules of evidence in international criminal law and allows the apportioning of
+accountability in the absence of both internal decision-making records and epistemic certainty.
+Also concerned with challenges of accountability, Osoba (2025) asks how it is possible to man-
+age the increased complexity that will accompany the integration of AI into resort-to-force decision
+31By the UK’s self-assessment of its decision to go to war against Iraq in 2003, we refer to the Chicot Inquiry (Chilcot,2016).
+For a discussion, see Erskine and Davis (2025, pp. 10–11).
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 17 ---
+Cambridge Forum on AI: Law and Governance 17
+making. Following an incisive analysis of the new “AI-human hybrid military decision-making orga-
+nizations” central to these deliberations, he turns to the challenge of governing such bodies. Osoba
+(2025, p. 1) emphasizes that “[t]he stability of the international political ecosystem requires respon-
+sible state actors to subject their national security operations (including the decision to resort to
+war) to international norms and ethical mandates” and makes a case for “a minimal AI governance
+standard framework,” which he argues will provide the societal control of complex AI-augmented
+decision systems necessary for such compliance (and, we would add, international legitimacy). This
+can, he maintains, produce an “organisational culture of accountability.” Similarly concerned with
+the complexity that accompanies the emerging influence of AI and big data on political and military
+decision making, Hammond-Errey (2025) introduces the valuable notion of “architectures of AI” to
+describe the infrastructure that shapes contemporary security and sovereignty. While acknowledg-
+ing the imperative, addressed by Logan and Osoba, to subject states to scrutiny for their decisions on
+the resort to force, she offers a different perspective on how AI-augmented decision making could
+threaten states’ perceived legitimacy. Bringing the discussion back to the US-based “tech leviathans”
+discussed in Section 3, she convincingly argues that current AI architectures concentrate power
+amongst these companies, which opens up the possibility of Big Tech effectively undermining the
+autonomy of states that rely on AI-enabled systems to make decisions on the resort to force.
+Complication 4 addresseshowAI-enabledsystemsinteractwith,andconstitute,formalorganisa-
+tionssuchasstatesandmilitaryinstitutions,alongwiththeeffectsofthisinteractionandconstitution.
+SucheffectsincludethepossibilityofAI-enabledsystemsvariouslyenhancinganderodingthecapac-
+itiesoftheseinstitutions,distortingordisruptingstrategicdecision-makingprocesses,organizational
+structures, and chains of command, and even exacerbating organisational decision-making patholo-
+gies. These effects also encompass changes made to institutional structures to prevent or mitigate
+risks and disruptions caused by the steady infiltration of AI-enabled systems in the state’s decision-
+making processes. Importantly, this complication entails a conceptional shift – one that focuses on
+the organisation as a whole. In other words, while Complication 2 addresses the consequences of
+the interactions between individual human actors and the AI-enabled systems that they rely on,
+Complication 4 focuses on the relatively neglected phenomenon oforganisation-machine interaction
+and its consequences.
+In their contribution, Erskine and Davis (2025) argue that the integration of AI-enabled systems
+into state-level decision making over whether and when to wage war will engender subtle but sig-
+nificant changes to the state’s deliberative and organisational structures, its culture, and its capacities
+– and in ways that could undermine its adherence to international norms of restraint. In making
+this provocative claim, they propose that the gradual proliferation and embeddedness of AI-enabled
+decision-support systems within the state – what they call the “phenomenon of ‘Borgs in the org”’
+– will lead to changes that, together, threaten to lessen the state’s capacity for institutional learn-
+ing. They warn that, as a result, the state’s responsiveness to external social cues and censure will
+be weakened, thereby making the state less likely to engage with, internalize, and adhere to inter-
+national constraints regarding the resort to force. Müller et al. (2025) likewise address the way that
+theintegrationofAI-enabledsystemsintostate-leveldeliberationsovertheresorttoforcewillchange
+existingorganisationalanddecision-makingstructures.Theyfocusspecificallyonanoftenneglected,
+yet profoundly important, group within this emerging social-technical system: “the integrators,” or
+that component of the larger decision-making structure responsible for linking the otherwise dis-
+parate groups of “developers” and “users” in the context of political and military decision making.
+Providing a valuable conceptualization of the relationships amongst these different groups of actors
+and AI-driven decision systems, they demonstrate how structures change and are re-constituted by
+the introduction of AI into new political and military deliberative processes.
+While the previous two contributions analyse how bringing AI into decision making on the resort
+to force will transform the state’s organisational and decision-making structures, the final two arti-
+cles bothprescribe institutional change to preempt anticipated risks that would accompany reliance
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 18 ---
+18 Toni Erskine and Steven Miller
+on such systems. Yee-Kuang Heng (2025) addresses how AI-driven decision-support systems that
+would assist human calculations on the resort to force raise concerns that automation bias and
+deskilling may contribute to the dangerous erosion of human judgment. He thereby touches on con-
+cerns addressed within Complication 2, including by Renic (2025). Nevertheless, he is interested
+specifically in how this risk is compounded by the complexities and pathologies of organisational
+decision making, bringing his analysis squarely within the current complication. Rather than focus-
+ing on improving AI models, he adopts an “institutional approach” to advocate for governments
+providing training for human decision makers, questioning “groupthink“, and restructuring their
+institutional settings in order to minimize these risks. Finally, like Heng, Sienknecht (2025) argues
+that risks posed by the prospect of AI-enabled systems infiltrating resort-to-force decision making
+should prompt proactive changes to the state’s organisational structure. The risk that Sienknecht
+confronts is the “sociotechnical responsibility gap” brought on by the inability to attribute decisions
+made or informed by AI-enabled systems to either the machines themselves or any one individual. If
+such systems contribute to high-stakes political and military decision making, such as deliberations
+over whether and when to wage war, she argues that we must establish “proxy responsibility” rela-
+tions by which designated actors assume responsibility for these otherwise unattributable actions. To
+make this possible, Sienknecht proposes what she describes as an “institutional response”: an advi-
+sory “AI oversight body” that would create the structural conditions for such attributions of proxy
+responsibility relations.
+This collection of research articles raises problems and possibilities that accompany what we have
+arguedistheimminentandinevitable(evennascent) directinfluenceofAI-enabledsystemsononeof
+themostconsequentialdecisionsthatcanbemade:thedecisiontogotowar.Thequestionsandcorre-
+sponding analyses provided in this collection are intended as prompts, provocations, and provisional
+frameworks for future research on this crucial topic. We hope that the multidisciplinary discussions,
+debates, and reciprocal learning from which these contributions have emerged continue in responses
+to them – and in further critical engagement with the prospect of AI-driven systems increasingly
+informing state-level decisions on the resort to force.
+Funding statement. This project was supported by the Australian Government through a grant from the Department of
+Defence.
+Competing interests. The authors declare none.
+References
+Anduril. (2024, April 12). Anduril partners with OpenAI to advance U.S. Artificial Intelligence leadership and protect U.S.
+andalliedforces .https://www.anduril.com/anduril-partners-with-openai-to-advance-u-s-artificial-intelligence-leadership-
+and-protect-u-s/
+Asghar, S.(2025,May23).AIatthenexusofnucleardeterrence:Enhancingleftoflaunchoperations. Nuclear Network.https://
+nuclearnetwork.csis.org/ai-at-the-nexus-of-nuclear-deterrence-enhancing-left-of-launch-operations/
+Assaad, Z. (2024, November 11).Meta now allows military agencies to access its AI software. It poses a moral dilemma for
+everybody who uses it. The Conversation.https://doi.org/10.64628/AA.ydqkr4hhs
+Assaad, Z. (2025, February 11).Google has dropped its promise not to use AI for weapons. It’s part of a troubling trend. The
+Conversation. Retrieved February 1, 2025, fromhttpGaz://theconversation.com/google-has-dropped-its-promise-not-to-
+use-ai-for-weapons-its-part-of-a-troubling-trend-249169
+Assaad, Z., & Williams, E. (2025). Technology and tactics: The intersection of safety, AI, and the resort to force.Cambridge
+Forum on AI: Law and Governance1, 1–15.
+Bacciarelli, A. (2025, February 6). Google announces willingness to develop AI for weapons.Human Rights Watch. Retrieved
+May 31, 2025, fromhttps://www.hrw.org/news/2025/02/06/google-announces-willingness-develop-ai-weapons
+Belanger, A. (2025, March 13). OpenAI declares AI race “over” if training on copyrighted works isn’t fair use .
+ArsTechnica. https://arstechnica.com/tech-policy/2025/03/openai-urges-trump-either-settle-ai-copyright-debate-or-lose-
+ai-race-to-china/
+Berger, V .(2025, March 15).The AI copyright battle: Why Open AI and Google are pushing for fair use. Forbes.https://www.
+forbes.com/sites/virginieberger/2025/03/15/the-ai-copyright-battle-why-openai-and-google-are-pushing-for-fair-use/
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 19 ---
+Cambridge Forum on AI: Law and Governance 19
+Bostrom, N. (2014). Superintelligence: Paths, dangers, strategies. Oxford University Press.
+Burdette, Z., Mueller, K., Mitre, J., & Hoak, L. (2025, July 15). Six ways AI could cause the next big war, and why it proba-
+bly won’t.Bulletin of the Atomic Scientists.https://thebulletin.org/premium/2025-07/six-ways-ai-could-cause-the-next-big-
+war-and-why-it-probably-wont/
+Bureau of Arms Control, Verification, and Deterrence . (2023, November 9).Political declaration on responsible military
+use of artificial intelligence and autonomy. Department of State.https://www.state.gov/wp-content/uploads/2023/10/Latest-
+Version-Political-Declaration-on-Responsible-Military-Use-of-AI-and-Autonomy.pdf
+Butcher, S. I.(2005). The Russell-Einstein Manifesto1; (Pugwash History Series). Pugwash Conferences on Science and World
+Affairs. Retrieved September 1, 2025, fromhttps://pugwash.org/wp-content/uploads/2014/02/2005_history_origins_of_
+manifesto3.pdf
+Cellan-Jones, R. (2014, December 2). Stephen Hawking warns artificial intelligence could end mankind.BBC News. Retrieved
+July 13, 2025, fromhttps://www.bbc.com/news/technology-30290540
+Center for AI Safety. (2023, May 30).Statement on AI risk. Retrieved July 15, 2023, fromhttps://www.safe.ai/statement-on-
+ai-risk
+Chernavskikh, V ., & Palayer, J. (2025). Impact of military artificial intelligence on nuclear escalation risk . Stockholm
+International Peace Research Institute. (6/2025; SIPRI Insights on Peace and Security).
+Chilcot S. J. 2016 The Report of the Iraq Inquiry: Executive Summary. (HC 264). Retrieved October 2, 2024, fromhttps://
+assets.publishing.service.gov.uk/media/5a80f42ced915d74e6231626/The_Report_of_the_Iraq_Inquiry_-_Executive_
+Summary.pdf
+Clegg, N. (2024, November 4). Open source AI can help America lead in AI and strengthen global security.Meta Newsroom.
+https://about.fb.com/news/2024/11/open-source-ai-america-global-security/
+Cummings, M. L. (2006). Automation and accountability in decision support system interface design.Journal of Technology
+Studies, 32(1), 23–31.
+Cummings, M. L. (2015). Automation bias in intelligent time critical decision support systems. In D. Harris & W.-C. Li (Eds.),
+Decision making in aviation(pp. 289–294). London: Routledge.https://doi.org/10.4324/9781315095080-17
+Davies, H., McKernan, B., & Sabbagh, D. (2023, December 1). ‘The Gospel’: How Israel uses AI to select bombing targets in
+Gaza. The Guardian. https://www.theguardian.com/world/2023/dec/01/the-gospel-how-israel-uses-ai-to-select-bombing-
+targets
+Davis, J. L. (2024). Elevating humanism in high-stakes automation: Experts-in-the-loop and resort-to-force decision making.
+Australian Journal of International Affairs, 78(2), 200–209.https://doi.org/10.1080/10357718.2024.2328293
+Deeks, A. (2024). Delegating war initiation to machines. Australian Journal of International Affairs , 78(2), 148–153.
+https://doi.org/10.1080/10357718.2024.2327375
+Deeks, A. (2025a). State responsibility for AI mistakes in the resort to force.Cambridge Forum on AI: Law and Governance1,
+1–12.
+Deeks, A., Lubell, N., & Murray, D. (2019). Machine learning, artificial intelligence, and the use of force by states.Journal of
+National Security Law and Policy, 10(1), 1–25.
+Deeks, A. S. (2025b). The double black box: National security, Artificial Intelligence, and the struggle for democratic accountabil-
+ity. Oxford University Press.
+Depp, M., & Scharre, P . (2024, January 16). Artificial intelligence and nuclear stability. War on the Rocks . https://
+warontherocks.com/2024/01/artificial-intelligence-and-nuclear-stability/
+Desmarais, A. (2025, June 26).US Army recruits tech execs. This is who will be joining as reserve members. Euronews.http://
+www.euronews.com/next/2025/06/26/us-army-recruits-tech-execs-this-is-who-will-be-joining-as-reserve-members
+Douthat, R. (2025, October 30). What Palantir sees: The tech company’s C.T.O. on surveillance, A.I. and the future of
+war [Audio podcast]. Retrieved November 2, 2025, fromhttps://www.nytimes.com/2025/10/30/opinion/palantir-shyam-
+sankar-military.html
+Egan, L., & Kine, P . (2024, November 16).Biden’s final meeting with Xi Jinping reaps agreement on AI and nukes. Politico.
+Retrieved September 1, 2025, fromhttps://www.politico.com/news/2024/11/16/biden-xi-jinping-ai-00190025
+Erskine, T.(2024a). AI and the future of IR: Disentangling flesh-and-blood, institutional, and synthetic moral agency in world
+politics. Review of International Studies, 50(3), 534–559.https://doi.org/10.1017/S0260210524000202
+Erskine, T. (2024b). Before algorithmic Armageddon: Anticipating immediate risks to restraint when AI infiltrates decisions
+to wage war.Australian Journal of International Affairs, 78(2), 175–190.https://doi.org/10.1080/10357718.2024.2345636
+Erskine, T., & Davis, J. L. (2025). “Borgs in the org” and the decision to wage war: The impact of AI on institutional learning
+and the exercise of restraint.Cambridge Forum on AI: Law and Governance1, 1–12.
+Erskine, T., & Miller, S. E. (2024a). AI and the decision to go to war: Future risks and opportunities.Australian Journal of
+International Affairs, 78(2), 135–147.https://doi.org/10.1080/10357718.2024.2349598
+Erskine, T., & Miller, S. E.(Eds.). (2024b). Anticipating the future of war: AI, automated systems, and resort-to-force decision
+making [Special issue].Australian Journal of International Affairs, 78(2). https://doi.org/10.1080/10357718.2024.2349598
+Erskine, T., Miller, S. E., Assaad, Z., Baggiarini, B., Chiodo, M., Davis, J. L., … Zatsepina, L. (2025a). AI, automated sys-
+tems, and resort-to-force decision making – Policy recommendations: Submission to the UN Secretary General pertaining
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 20 ---
+20 Toni Erskine and Steven Miller
+to A/RES/79/239. Retrieved July 1, 2025, from https://docs-library.unoda.org/General_Assembly_First_Committee_-
+Eightieth_session_(2025)/79-239-Australia-Natl-Univ-EN.pdf
+Erskine, T., Miller, S. E., Assaad, Z., Baggiarini, B., Chiodo, M., Davis, J. L., … Zatsepina, L. (2025b, August 31).
+AI, automated systems, and resort-to-force decision making – policy recommendations. Extended submission to
+the Australian department of defence. Available at: https://bellschool.anu.edu.au/sites/default/files/2025-09/AI%
+20Automated%20Systems%20and%20Resort-to-Force%20Decision%20Making%20Policy%20Report%20-%20Final%
+20%28Aug.%202025%29.pdf
+Ferran, L. (2024, December 5). Anduril, OpenAI enter “strategic partnership” to use AI against drones.Breaking Defense.
+https://breakingdefense.com/2024/12/anduril-openai-enter-strategic-partnership-to-use-ai-against-drones/
+Filkins, D. (2025, July 14). Is the U.S. ready for the next war?The New Yorker. https://www.newyorker.com/magazine/2025/
+07/21/is-the-us-ready-for-the-next-war
+France, United Kingdom, & United States . (2022, July 29). Working paper – Principles and responsible practices for
+Nuclear Weapon States. NPT/Conf.2020/WP.70. United Nations. https://documents.un.org/doc/undoc/gen/n22/446/53/
+pdf/n2244653.pdf
+Frenkel, S. (2025, August 4). The militarization of Silicon Valley.The New York Times. https://www.nytimes.com/2025/08/04/
+technology/google-meta-openai-military-war.html
+Garcia, D. (2023). The AI military race: Common good governance in the age of artificial intelligence. Oxford University Press.
+Google. (2025, February).Our AI principles.. Retrieved May 31, 2025, fromhttps://ai.google/principles/
+Government of the Netherlands. (2023, February 16).REAIM 2023 call to action. Ministerie van Algemene Zaken. Retrieved
+May 1, 2025, fromhttps://www.government.nl/documents/publications/2023/02/16/reaim-2023-call-to-action
+Hammond-Errey, M. (2025). Architectures of AI: Tech power broking war?Cambridge Forum on AI: Law and Governance1,
+1–21.
+Haner, J., & Garcia, D. (2019). The artificial intelligence arms race: Trends and world leaders in autonomous weapons
+development.Global Policy, 10(3), 331–337.https://doi.org/10.1111/1758-5899.12713
+Hao, K. (2025). Empire of AI: Inside the reckless race for total domination. Allen Lane.
+Heng, Y ee-Kuang(2025). Upskillling human actors against AI automation bias in strategic decision making on the resort to
+force.Cambridge Forum on AI: Law and Governance, 1, 1–15.
+Holmes, M., & Wheeler, N. J. (2024). The role of artificial intelligence in nuclear crisis decision making: A complement, not
+a substitute.Australian Journal of International Affairs, 78(2), 164–174.https://doi.org/10.1080/10357718.2024.2333814
+Horowitz, M. C., & Lin-Greenberg, E. (2022). Algorithms and influence artificial intelligence and crisis decision-making.
+International Studies Quarterly, 66(4), sqac069.https://doi.org/10.1093/isq/sqac069
+How America built an AI tool to predict Taliban attacks . (2024, July 31). The Economist. https://www.economist.com/
+science-and-technology/2024/07/31/how-america-built-an-ai-tool-to-predict-taliban-attacks
+Johnson, J. (2022, July 29). AI, autonomy, and the risk of nuclear war.War on the Rocks. https://warontherocks.com/2022/07/
+ai-autonomy-and-the-risk-of-nuclear-war/
+Jones, C. R., & Bergen, B. K. (2025). Large language models pass the Turing test(arXiv:2503.23674). arXiv.https://doi.org/10.
+48550/arXiv.2503.23674
+Karp, A. C. (2023, July 25). Our Oppenheimer moment: The creation of A.I. weapons.The New York Times. https://www.
+nytimes.com/2023/07/25/opinion/karp-palantir-artificial-intelligence.html
+Kasirzadeh, A., & Gyevnar, B. (2025). AI safety for everyone.Nature Machine Intelligence 7, 531–542.
+Kleinman, Z. (2023, May 30). AI “godfather” Yoshua Bengio feels “lost” over life’s work.BBC News. Retrieved July 15, 2023,
+from https://www.bbc.com/news/technology-65760449
+Knight, W .(2023, September 7).The generative AI boom could fuel a new international arms race. Wired.https://www.wired.
+com/story/fast-forward-generative-ai-could-fuel-a-new-international-arms-race/
+Leins, K., & Kaspersen, A. (2021, November 9).Seven myths of using the term “human on the loop”: “Just what do you think
+you are doing, Dave?”Carnegie Council for Ethics in International Affairs.https://www.carnegiecouncil.org/media/article/
+7-myths-of-using-the-term-human-on-the-loop
+Levy, S. (2025, June 20). What big tech’s band of execs will do in the Army.Wired. https://www.wired.com/story/what-lt-col-
+boz-and-big-techs-enlisted-execs-will-do-in-the-army/
+Lin, H. (2025). Artificial intelligence and nuclear weapons: A commonsense approach to understanding costs and benefits.
+Texas National Security Review, 8(3), 98–109.
+Logan, S. (2024). Tell me what you don’t know: Large language models and the pathologies of intelligence analysis.Australian
+Journal of International Affairs, 78(2), 220–228.https://doi.org/10.1080/10357718.2024.2331733
+Logan, S. (2025). Certainty and algorithmic transparency in the decision to go to war: Lessons from evidentiary approaches
+in international criminal law.Cambridge Forum on AI: Law and Governance1, 1–16.
+Lushenko, P .(2025). AI, trust, and the war-room: Evidence from a conjoint experiment in the US military.Cambridge Forum
+on AI: Law and Governance1, 1–24.
+Manyika, J., & Hassabis, D. (2025, February 4).Responsible AI: Our 2024 report and ongoing work. Google. Retrieved April 7,
+2025, fromhttps://blog.google/technology/ai/responsible-ai-2024-report-ongoing-work/
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 21 ---
+Cambridge Forum on AI: Law and Governance 21
+McChrystal, S., & Roy, A. (2023, June 19). AI has entered the situation room.Foreign Policy. https://foreignpolicy.com/2023/
+06/19/ai-artificial-intelligence-national-security-foreign-policy-threats-prediction/
+McDonnell, T., Chesnut, M., Ditter, T., Fink, A., & Lewis, L. (2023). Artificial intelligence in nuclear operations: Challenges,
+opportunities, and impacts(IRM-2023-U-035284-Final; p. 66). Center for Naval Analyses. Retrieved September 1, 2025,
+from https://www.cna.org/reports/2023/04/Artificial-Intelligence-in-Nuclear-Operations.pdf
+Meta. (2025, April).Llama 4 acceptable use policy. Retrieved May 28, 2025, fromhttps://www.llama.com/llama4/use-policy/
+Metz, C. (2023, May 1). ‘The godfather of A.I.’ leaves Google and warns of danger ahead.The New York Times. Retrieved July
+14, 2025, fromhttps://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html
+Ministry of Foreign Affairs, Republic of Korea . (2024, September 12). Outcome of Responsible AI in Military Domain
+(REAIM) Summit 2024. Republic of Korea. Retrieved May 1, 2025, from https://tls.mofa.go.kr/eng/brd/m_5674/view.
+do?seq=321057
+Moorhead, P .(2024, November 4).Meta extends Llama support to U.S. government for national security. Forbes.https://www.
+forbes.com/sites/patrickmoorhead/2024/11/04/meta-extends-llama-support-to-us-government-for-national-security/
+Mosier, K. L., & Manzey, D. (2019). Humans and automated decision aids: A match made in heaven? In K. L. Mosier &
+D. Manzoor (Eds.),Human performance in automated and autonomous systems(pp. 19–42). CRC Press.https://doi.org/10.
+14279/depositonce-10992
+Müller, D., Chiodo, M., & Sienknecht, M. (2025). Integrators at war: Mediating in AI-assisted resort-to-force decisions.
+Cambridge Forum on AI: Law and Governance1, 1–25.
+Nichols, T. (2025a, June 26). The president’s weapon.The Atlantic. https://www.theatlantic.com/magazine/archive/2025/08/
+nuclear-command-control-football-iran/683256/
+Nichols, T. (2025b, September 1). Our AI fears run long and deep.The Atlantic. https://www.theatlantic.com/ideas/archive/
+2025/09/ai-movies-popular-culture/684063/
+Ó hÉigeartaigh, S. (2025a). The most dangerous fiction: The rhetoric and reality of the AI race(SSRN Scholarly Paper 5278644
+1–26 ).https://doi.org/10.2139/ssrn.5278644
+Ó hÉigeartaigh, S. (2025b, March 27). What comes after the Paris AI summit?RUSI. Retrieved June 29, 2025, fromhttps://
+www.rusi.org.
+O’Hanlon, M. E. (2025, February 28). How unchecked AI could trigger a nuclear war.Brookings Commentary. Retrieved
+September 1, 2025, fromhttps://www.brookings.edu/articles/how-unchecked-ai-could-trigger-a-nuclear-war/
+Office of the Director of National Intelligence. (2025).U.S. Intelligence community budget. Office of the Director of National
+Intelligence. Retrieved November 11, 2025, fromhttps://www.dni.gov/index.php/what-we-do/ic-budget
+Osoba, O. (2025). AI governance for military decision making: A proposal for managing complexity.Cambridge Forum on AI:
+Law and Governance1, 1–11.
+The Outpost. (2024, November 8).Anthropic partners with Palantir and AWS to bring AI to US defense and intelligence.https://
+theoutpost.ai/news-story/anthropic-partners-with-palantir-and-aws-to-bring-ai-to-us-defense-and-intelligence-8051/
+Palantir. (2024, November 7).Anthropic and Palantir partner to bring Claude AI models to AWS for U.S. government intelli-
+gence and defense operations. Business Wire.https://www.businesswire.com/news/home/20241107699415/en/Anthropic-
+and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations
+Pichai, S. (2018, June 7).AI at Google: Our principles. Google. Retrieved May 8, 2025, fromhttps://blog.google/technology/
+ai/ai-principles/
+Puwal, S. (2024, April 12).Should artificial intelligence be banned from nuclear weapons systems?NATO Review.https://www.
+nato.int/docu/review/articles/2024/04/12/should-artificial-intelligence-be-banned-from-nuclear-weapons-systems/index.
+html
+Rautenbach, P .(2022,September). On integrating artificial intelligence with nuclear control.ArmsControlAssociation. https://
+www.armscontrol.org/act/2022-09/features/integrating-artificial-intelligence-nuclear-control
+REAIM. (2024, September).Responsible AI in the Military Domain: REAIM Blueprint for Action. Digital Watch Observatory.
+RetrievedMay1,2025,from https://dig.watch/resource/responsible-ai-in-the-military-domain-reaim-blueprint-for-action
+Renic, N. (2025). AI-optimized violence and the suffocation of moral and political wisdom.Cambridge Forum on AI: Law and
+Governance 1, 1–10.
+Roose, K. (2023, May 30). A.I. poses ‘risk of extinction,’ industry leaders warn.The New York Times. Retrieved May 1, 2025,
+from https://www.nytimes.com/2023/05/30/technology/ai-threat-warning.html
+Rosenberg, S. (2024, November 8).Anthropic, Palantir, Amazon team up on defense AI. Axios.https://www.axios.com/2024/
+11/08/anthropic-palantir-amazon-claude-defense-ai
+Sadashiv, S. (2024, November 5). Meta to provide U.S. defence agencies access to Llama AI models.Medianama. https://www.
+medianama.com/2024/11/223-meta-to-provide-u-s-defence-agencies-access-to-its-llama-ai-models/
+The Scale T eam. (2024, November 5).Defense Llama: The LLM purpose-built for American national security. Scale AI.https://
+scale.com/blog/defense-llama
+Scharre, P .(2021). Debunking the AI Arms Race Theory.Texas National Security Review, 4(3), 122–132.
+Schmid, S., Lambach, D., Diehl, C., & Reuter, C. (2025). Arms race or innovation race? Geopolitical AI development.
+Geopolitics, 1–30.https://doi.org/10.1080/14650045.2025.2456019
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 22 ---
+22 Toni Erskine and Steven Miller
+Shanklin, W . (2024, December 4). OpenAI signs deal with Palmer Luckey’s Anduril to develop military AI . Engadget.
+Retrieved February 1, 2025, from https://www.engadget.com/ai/openai-signs-deal-with-palmer-luckeys-anduril-to-
+develop-military-ai-213356951.html
+Sienknecht, M. (2025). Institutionalizing proxy responsibility: AI oversight bodies and resort-to-force decision making.
+Cambridge Forum on AI: Law and Governance1, 1–19.
+Simonite, T.(2017, September 8). Artificial intelligence fuels new global arms race.Wired. https://www.wired.com/story/for-
+superpowers-artificial-intelligence-fuels-new-global-arms-race/
+Skitka, L. J., Mosier, K. L., & Burdick, M. (1999). Does automation bias decision-making?International Journal of Human-
+Computer Studies, 51(5), 991–1006.https://doi.org/10.1006/ijhc.1999.0252
+Stokes, J., Kahl, C. H., Kendall-Taylor, A., & Lokker, N. (2025). Averting AI armageddon: U.S.-China-Russia rivalry at the
+nexus of nuclear weapons and artificial intelligence. Center for a New American Security.
+Suchman, L. (2023). Imaginaries of omniscience: Automating intelligence in the US Department of Defense.Social Studies of
+Science, 53(5), 761–786.https://doi.org/10.1177/03063127221104938
+Turing, A. M.(1950). Computing machinery and intelligence.Mind, 59(236), 433–460.https://doi.org/10.1093/mind/lix.236.
+433
+United Nations. (1945). United Nations Charter. Retrieved July 6, 2024, fromhttps://www.un.org/en/about-us/un-charter/
+full-text
+United Nations. (2024, December 19).Secretary-General tells Security Council that ‘AI’ must never equal ‘advancing inequality,’
+urging safe, secure, inclusive future for technology. Retrieved March 10, 2025, fromhttps://press.un.org/en/2024/sgsm22500.
+doc.htm
+United Nations CCW (2019, November 8).Report of the 2019 session of the Group of Governmental Experts on Emerging
+Technologies in the Area of Lethal Autonomous Weapons Systems. , CCW/GGE.1/2019/3/Add.1.https://docs-library.unoda.
+org/Convention_on_Certain_Conventional_Weapons_-_Group_of_Governmental_Experts_(2019)/1919338E.pdf
+United Nations, General Assembly . (2023, December 28). Resolution adopted by the General Assembly on 22 December
+2023—Lethal autonomous weapons systems. A/RES/78/241. https://documents.un.org/doc/undoc/gen/n23/431/11/pdf/
+n2343111.pdf
+United Nations, General Assembly . (2024, December 31).Resolution adopted by the General Assembly – Artificial intelli-
+gence in the military domain and its implications for international peace and security. A/RES/79/239.https://unidir.org/wp-
+content/uploads/2025/03/UN_General_Assembly_A_RES_79_239-EN.pdf
+United Nations, General Assembly . (2025, June 5). Report of the Secretary-General—Artificial intelligence in the military
+domain and its implications for international peace and security. A/80/78. https://documents.un.org/doc/undoc/gen/n25/
+107/66/pdf/n2510766.pdf
+US Department of Defense. (2022).2022 Nuclear Posture Review. Retrieved September 1, 2025, fromhttps://media.defense.
+gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.pdf
+US Department of Defense . (2024).Report on the nuclear employment strategy of the United States(B-56D699F). Retrieved
+September 1, 2025, from https://media.defense.gov/2024/Nov/15/2003584623/-1/-1/1/REPORT-ON-THE-NUCLEAR-
+EMPLOYMENT-STRATEGY-OF-THE-UNITED-STATES.PDF
+US Department of W ar. (2025, December 9). The War Department Unleashes AI on New GenAI.mil Platform. Retrieved
+December 10, 2025, from https://www.war.gov/News/Releases/Release/Article/4354916/the-war-department-unleashes-
+ai-on-new-genaimil-platform/.
+V allor, S.(2013). The future of military virtue: Autonomous systems and the moral deskilling of the military. In K. Podens,
+J.Stinissen&M.Maybaum(Eds.), Proceedingsof5thInternationalConferenceonCyberConflict(CyCon2013) (pp.471–486).
+NATO CCD COE.
+V allor, S.(2024). The AI mirror: How to reclaim our humanity in an age of machine thinking. Oxford University Press.
+Vega, C., & Johns, E. (2024, July 22). Humans should teach AI how to avoid nuclear war—While they still can.Bulletin of
+the Atomic Scientists.https://thebulletin.org/2024/07/humans-should-teach-ai-how-to-avoid-nuclear-war-while-they-still-
+can/
+Vold, K. (2025). Augmenting military decision making with artificial intelligence. Cambridge Forum on AI: Law and
+Governance 1, 1–13.
+Wiggers, K. (2024, November 7). Anthropic teams up with Palantir and AWS to sell AI to defense customers.TechCrunch.
+Retrieved March 1, 2025, fromhttps://techcrunch.com/2024/11/07/anthropic-teams-up-with-palantir-and-aws-to-sell-its-
+ai-to-defense-customers/
+Winter-Levy, S., & Lalwani, N. (2025, August 7). The end of mutual assured destruction? Foreign Affairs. https://www.
+foreignaffairs.com/united-states/artificial-intelligence-end-mutual-assured-destruction
+Wong, Y . H., Y urchak, J., Button, R. W ., Frank, A. B., Laird, B., Osoba, O. A., … Bae, S. J. (2020). Deterrence in the age
+of thinking machines. RAND Corporation. Retrieved October 1, 2024, fromhttps://www.rand.org/pubs/research_reports/
+RR2797.html
+Y uval, A.(2024, April 3). “Lavender”: The AI machine directing Israel’s bombing spree in Gaza.+972 Magazine. https://www.
+972mag.com/lavender-ai-israeli-army-gaza/
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
+
+--- Page 23 ---
+Cambridge Forum on AI: Law and Governance 23
+Zatsepina, L. (2025). Waltzing into uncertainty: AI in nuclear decision making and the challenge of divergent deterrence
+logics. Cambridge Forum on AI: Law and Governance1, 1–15.
+T oni Erskineis Professor of International Politics in the Coral Bell School of Asia Pacific Affairs at the Australian National
+University(ANU).SheisalsoAssociateFellowoftheLeverhulmeCentrefortheFutureofIntelligenceatCambridgeUniversity,
+Chief Investigator of the “Anticipating the Future of War: AI, Automated Systems, and Resort-to-Force Decision Making”
+Research Project, funded by the Australian Government through a grant by Defence, and recipient of the International Studies
+Association’s 2024-25 Distinguished Scholar Award in International Ethics.
+Steven E. Miller is Director of the International Security Program in the Belfer Center for Science and International Affairs at
+Harvard University’s Kennedy School of Government. He also serves as Editor-in-Chief of the scholarly journal,International
+Security, and co-editor of the International Security Program’s book series, BCSIA Studies in International Security (published
+by MIT Press). He is a Fellow of the American Academy of Arts and Sciences, where he is member of (and formerly chaired)
+the Committee on International Security Studies (CISS). He is also member of the Council of International Pugwash.
+Cite this article: Erskine, T., & Miller, S.E. (2025). Computer says,“war”: AI and resort-to-force decision making in a context
+of rapid change and global uncertainty.Cambridge Forum on AI: Law and Governance, 1, e47, 1–23.https://doi.org/10.1017/
+cfl.2025.10041
+https://doi.org/10.1017/cfl.2025.10041 Published online by Cambridge University Press
